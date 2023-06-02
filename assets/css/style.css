@@ -1,0 +1,34 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*globalsettings*/
+/*body*/
+body {
+    width: 100vw;
+}
+/*padding imd die text box vertikal zu zentreiren
+hintergrung bild fromatieren*/
+section {
+    padding-top: 50vh;
+    background-image: url('/assets/img/OIG.jpeg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+/*textbox*/
+/*text wird gestylt
+box für den text wird festgelgt
+padding für die größe der box
+margin zentriert die box horizontal
+*/
+article {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.367);
+    width: fit-content;
+    padding: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
